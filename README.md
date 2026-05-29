@@ -2,7 +2,6 @@
 
 <div align="center">
 
-<img src="./assets/banner.png" alt="SummarAI Banner" width="100%"/>
 
 # 🧠 InsightAI
 
