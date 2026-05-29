@@ -1,10 +1,10 @@
-# 🧠 SummarAI — AI Smart Text Summarizer
+# 🧠 InsightAI — AI Smart Text Summarizer
 
 <div align="center">
 
 <img src="./assets/banner.png" alt="SummarAI Banner" width="100%"/>
 
-# 🧠 SummarAI
+# 🧠 InsightAI
 
 ### AI-Powered Text Summarization & Document Analysis Platform
 
