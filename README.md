@@ -1,187 +1,491 @@
-# AI Smart Text Summarizer
+# 🧠 SummarAI — AI Smart Text Summarizer
 
-An advanced AI-powered text summarization tool with a modern GUI, built using Python and CustomTkinter. Features multiple summarization algorithms, keyword analysis, charts, history management, and more.
+<div align="center">
 
-## ✅ Features
+<img src="./assets/banner.png" alt="SummarAI Banner" width="100%"/>
 
-- **Modern Dashboard Interface**: Clean, professional UI with sidebar navigation and dark/light themes
-- **Multiple Summarization Algorithms**: LSA, TextRank, and LexRank algorithms
-- **Real-time Word Counter**: Live character and word count as you type
-- **Advanced Keyword Analysis**: Extract keywords with frequency charts using matplotlib
-- **Compression Ratio Display**: Shows percentage reduction between original and summary
-- **Reading Time Estimator**: Estimates reading time for original text and summary
-- **Sentence Highlighting**: Highlights important sentences in the original text
-- **Drag & Drop Support**: Drag files directly into the application
-- **History Management**: Save and reload previous summaries
-- **Copy to Clipboard**: Instantly copy generated summaries
-- **File Upload**: Support for .txt and PDF files
-- **Tabbed Results**: Organized display with Summary, Keywords, and Analysis tabs
-- **Threaded Processing**: Non-blocking UI during summarization
+# 🧠 SummarAI
 
-## 🧩 Project Structure
+### AI-Powered Text Summarization & Document Analysis Platform
 
+Transform lengthy documents into concise, meaningful summaries using advanced Natural Language Processing techniques and multiple summarization algorithms.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![CustomTkinter](https://img.shields.io/badge/CustomTkinter-Modern_UI-blue?style=for-the-badge)
+![NLP](https://img.shields.io/badge/NLP-Text_Summarization-success?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Analytics-Charts-orange?style=for-the-badge)
+![PDF](https://img.shields.io/badge/PDF-Supported-red?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+### 🚀 Summarize • Analyze • Discover
+
+</div>
+
+---
+
+# 📖 Overview
+
+SummarAI is an intelligent text summarization application built using Python and CustomTkinter that helps users quickly understand large amounts of text through automated summarization.
+
+The application supports multiple NLP summarization algorithms, PDF document analysis, keyword extraction, frequency visualization, summary history management, and interactive analytics.
+
+Whether you're a student, researcher, content creator, or professional, SummarAI helps reduce reading time while preserving important information.
+
+---
+
+# ✨ Key Features
+
+## 📝 AI Text Summarization
+
+Generate concise summaries using:
+
+- LSA (Latent Semantic Analysis)
+- TextRank Algorithm
+- LexRank Algorithm
+
+Choose from:
+
+- Short Summary
+- Medium Summary
+- Long Summary
+
+---
+
+## 📄 Document Upload Support
+
+Supported file formats:
+
+- TXT Files
+- PDF Documents
+
+Features:
+
+- One-click upload
+- Automatic text extraction
+- Instant document processing
+
+---
+
+## 🏷️ Keyword Extraction
+
+Automatically identify:
+
+- Important keywords
+- Most frequent terms
+- Topic-related phrases
+- Content insights
+
+---
+
+## 📊 Interactive Analytics
+
+Visualize text information through:
+
+- Keyword Frequency Charts
+- Summary Statistics
+- Compression Analysis
+- Reading Time Metrics
+
+Powered by Matplotlib.
+
+---
+
+## 📚 Summary History
+
+Store and manage:
+
+- Previous summaries
+- Used algorithms
+- Compression ratios
+- Generated keywords
+- Processing timestamps
+
+---
+
+## 🌙 Theme Support
+
+Switch instantly between:
+
+- Dark Mode
+- Light Mode
+
+Modern UI powered by CustomTkinter.
+
+---
+
+## 📋 Productivity Tools
+
+- Copy Summary to Clipboard
+- Save Summary as TXT
+- Word Counter
+- Character Counter
+- Reading Time Estimator
+- Sentence Highlighting
+
+---
+
+# 📸 Application Screenshots
+
+## 🏠 Main Dashboard
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/bf3cbfbf-0329-4844-a5e0-701a0df6c1d4" />
+
+
+
+Modern dashboard interface with sidebar navigation and quick controls.
+
+---
+
+## 📝 Text Summarization
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1273e1b0-23b5-4f0f-a039-bbc04cf81036" />
+
+
+Generate summaries using multiple algorithms.
+
+---
+
+## 📋 Summary Output
+
+![Summary](./screenshots/summary.png)
+
+View generated summaries with statistics.
+
+---
+
+## 🏷️ Keyword Analysis
+
+![Keywords](./screenshots/keywords.png)
+
+Automatically extracted keywords.
+
+---
+
+## 📊 Frequency Visualization
+
+![Chart](./screenshots/chart.png)
+
+Keyword frequency analysis chart.
+
+---
+
+## 🔍 Detailed Analysis
+
+![Analysis](./screenshots/analysis.png)
+
+Highlighted sentences and text analytics.
+
+---
+
+## 📚 Summary History
+
+![History](./screenshots/history.png)
+
+Manage and reload previous summaries.
+
+---
+
+## 🌙 Dark Theme
+
+![Dark Theme](./screenshots/dark-theme.png)
+
+---
+
+## ☀️ Light Theme
+
+![Light Theme](./screenshots/light-theme.png)
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technology |
+|-----------|------------|
+| Programming Language | Python |
+| GUI Framework | CustomTkinter |
+| NLP Library | Sumy |
+| PDF Processing | PyPDF2 |
+| Charts & Analytics | Matplotlib |
+| Clipboard Operations | Pyperclip |
+| Text Processing | NLTK |
+| Image Processing | Pillow |
+
+---
+
+# 🏗 System Architecture
+
+```text
+User Input
+    │
+    ▼
+Text / PDF Upload
+    │
+    ▼
+Text Extraction
+    │
+    ▼
+Summarization Engine
+    │
+    ├── LSA
+    ├── TextRank
+    └── LexRank
+    │
+    ▼
+Summary Generation
+    │
+    ├── Keyword Extraction
+    ├── Statistics
+    ├── Charts
+    └── Analysis
+    │
+    ▼
+User Dashboard
 ```
-AI_Text_Summarizer/
+
+# 📂 Project Structure
+
+```bash
+SummarAI/
 │
-├── main.py                 # Application entry point
-├── ui.py                   # Modern GUI with dashboard interface
-├── summarizer.py           # Multi-algorithm text summarization
-├── pdf_reader.py           # PDF text extraction
-├── keyword_extractor.py    # Keyword extraction with frequencies
-├── charts.py               # Matplotlib chart generation
-├── history_manager.py      # Summary history management
-├── utils.py                # Utility functions for text processing
-├── assets/                 # Icons and styling assets
+├── main.py
+├── ui.py
+├── summarizer.py
+├── pdf_reader.py
+├── keyword_extractor.py
+├── charts.py
+├── history_manager.py
+├── utils.py
+│
+├── assets/
+│   ├── banner.png
 │   ├── icons/
 │   └── styles/
-├── requirements.txt        # Python dependencies
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── summarizer.png
+│   ├── summary.png
+│   ├── keywords.png
+│   ├── chart.png
+│   ├── analysis.png
+│   ├── history.png
+│   ├── dark-theme.png
+│   └── light-theme.png
+│
+├── requirements.txt
 └── README.md
 ```
 
-## 🛠️ Technologies Used
+# 🚀 Installation
 
-- **Python 3.8+**
-- **CustomTkinter**: Modern GUI framework
-- **Sumy**: Multi-algorithm text summarization
-- **Matplotlib**: Chart generation for keyword visualization
-- **PyPDF2**: PDF text extraction
-- **Pillow**: Image processing for icons
-- **Pyperclip**: Clipboard operations
-- **NLTK**: Natural language processing
+## Clone Repository
 
-## 🚀 Getting Started
+```bash
+git clone https://github.com/gowthamk2503/SummarAI.git
+```
 
-### 1) Prerequisites
+## Navigate to Project
 
-- Python 3.8 or higher
-- pip package manager
+```bash
+cd SummarAI
+```
 
-### 2) Install Dependencies
-
-Open a terminal in the project folder and run:
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> 💡 On Windows, you may need: `python -m pip install -r requirements.txt`
-
-### 3) Download NLTK Data
-
-The first time you run the app, NLTK will download required data automatically. If needed, you can run:
+## Install NLTK Data
 
 ```python
 import nltk
 nltk.download('punkt')
 ```
 
-### 4) Run the Application
+## Run Application
 
 ```bash
 python main.py
 ```
 
-## 📄 How to Use
+# 📄 How To Use
 
-### Basic Usage
+### Step 1
 
-1. **Enter Text**: Type or paste text in the input area
-2. **Upload File**: Click "📎 Upload" or drag & drop .txt/.pdf files
-3. **Choose Algorithm**: Select from LSA, TextRank, or LexRank
-4. **Set Length**: Choose short, medium, or long summary
-5. **Generate**: Click "🚀 Generate" to create the summary
+Enter or paste text into the input area.
 
-### Advanced Features
+### Step 2
 
-- **Real-time Counter**: Watch word/character count update as you type
-- **Theme Toggle**: Switch between dark and light modes
-- **Tabbed Results**:
-  - **Summary Tab**: View, copy, and save the generated summary
-  - **Keywords Tab**: See extracted keywords and frequency chart
-  - **Analysis Tab**: View highlighted sentences and detailed statistics
-- **History Panel**: Access previous summaries from the sidebar
+Or upload:
 
-## 📊 Algorithm Comparison
+- TXT File
+- PDF File
+
+### Step 3
+
+Choose:
+
+- LSA
+- TextRank
+- LexRank
+
+### Step 4
+
+Select summary length:
+
+- Short
+- Medium
+- Long
+
+### Step 5
+
+Click:
+
+```text
+🚀 Generate
+```
+
+### Step 6
+
+View:
+
+- Summary
+- Keywords
+- Analysis
+- Statistics
+
+---
+
+# 📊 Algorithm Comparison
 
 | Algorithm | Description | Best For |
-|-----------|-------------|----------|
-| **LSA** | Latent Semantic Analysis | General purpose, balanced results |
-| **TextRank** | Graph-based ranking | Extractive summaries, maintaining context |
-| **LexRank** | Lexical centrality | Coherent summaries, sentence similarity |
-
-## 🖼️ UI Overview
-
-### Main Dashboard
-- **Sidebar Navigation**: Quick access to Summarize and History
-- **Theme Toggle**: Switch between dark/light modes
-- **Control Panel**: Algorithm and length selection
-- **Input Area**: Text input with live word counter
-- **Results Tabs**: Organized display of summary, keywords, and analysis
-
-### Key Features
-- **Responsive Design**: Adapts to different window sizes
-- **Modern Styling**: Rounded buttons, cards, and clean typography
-- **Loading States**: Visual feedback during processing
-- **Error Handling**: User-friendly error messages
-
-## 📈 Example Usage
-
-**Input Text:**
-> Artificial Intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of 'intelligent agents': any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals. Colloquially, the term "artificial intelligence" is often used to describe machines (or computers) that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving".
-
-**Generated Summary (TextRank, Medium):**
-> Artificial Intelligence (AI) is intelligence demonstrated by machines. Leading AI textbooks define the field as the study of 'intelligent agents'. Colloquially, the term "artificial intelligence" is often used to describe machines that mimic cognitive functions.
-
-**Statistics:**
-- Original: 148 words (0.7 min reading time)
-- Summary: 42 words (0.2 min reading time)
-- Compression: 71.6%
-
-**Keywords:** artificial, intelligence, machines, agents, cognitive, functions
-
-## 🔧 Customization
-
-### Adding New Algorithms
-
-To add a new summarization algorithm:
-
-1. Install the required library in `requirements.txt`
-2. Add the algorithm to `summarizer.py` in the `__init__` method
-3. Update the UI dropdown in `ui.py`
-
-### Custom Themes
-
-Modify themes by updating the `ctk.set_appearance_mode()` calls in `ui.py`.
-
-## 🧠 Technical Details
-
-- **Threading**: Summarization runs in background threads to prevent UI freezing
-- **Memory Management**: History limited to 50 entries to prevent memory issues
-- **File Handling**: Supports UTF-8 encoding for international text
-- **Chart Generation**: Matplotlib figures embedded in Tkinter canvas
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📝 License
-
-This project is open source and available under the MIT License.
+|------------|------------|------------|
+| LSA | Latent Semantic Analysis | General Purpose Summaries |
+| TextRank | Graph-Based Ranking | Extractive Summaries |
+| LexRank | Lexical Centrality | Coherent Summaries |
 
 ---
 
-## 🧠 Notes for Students
+# 📈 Example Output
 
-- The summarization uses extractive techniques (selecting important sentences)
-- Keywords are extracted using frequency analysis with stop word filtering
-- PDF text extraction quality depends on the PDF structure
-- The app supports English text primarily (algorithms can be extended for other languages)
-- Threading prevents UI blocking during computationally intensive operations
+### Input
+
+```text
+Artificial Intelligence (AI) is intelligence demonstrated by machines...
+```
+
+### Generated Summary
+
+```text
+Artificial Intelligence is intelligence demonstrated by machines. It is commonly used to describe systems capable of learning and problem solving.
+```
+
+### Statistics
+
+```text
+Original Words : 148
+Summary Words  : 42
+Compression    : 71.6%
+Reading Time   : 0.2 min
+```
+
+### Keywords
+
+```text
+Artificial Intelligence
+Machine Learning
+Agents
+Cognitive Functions
+Problem Solving
+```
 
 ---
 
-Enjoy summarizing texts with AI! 🤖📝
+# 🔒 Key Highlights
+
+✅ Multiple Summarization Algorithms
+
+✅ PDF Document Support
+
+✅ Modern Dashboard UI
+
+✅ Dark & Light Themes
+
+✅ Keyword Extraction
+
+✅ Interactive Charts
+
+✅ Reading Time Analysis
+
+✅ Summary History
+
+✅ Copy & Export Features
+
+✅ Multi-threaded Processing
+
+---
+
+# 🎯 Future Enhancements
+
+- AI Transformer Models (BART, T5)
+- Multi-Language Summarization
+- OCR Support
+- Voice Summarization
+- Cloud Sync
+- User Authentication
+- Team Collaboration
+- AI Chat Assistant
+- Web Version
+- Mobile App
+
+---
+
+# 🎓 Learning Outcomes
+
+This project demonstrates:
+
+- Natural Language Processing
+- Extractive Text Summarization
+- Python GUI Development
+- CustomTkinter Framework
+- Data Visualization
+- PDF Processing
+- Multi-threading
+- Software Architecture
+- User Experience Design
+
+---
+
+# 👨‍💻 Author
+
+## Gowtham K
+
+🎓 B.Tech Information Technology  
+🏫 Sri Eshwar College of Engineering
+
+📧 gowtham.k2023it@sece.ac.in
+
+### 🌐 Connect
+
+- GitHub
+- LinkedIn
+- Portfolio Website
+
+---
+
+# 📜 License
+
+Licensed under the MIT License.
+
+---
+
+<div align="center">
+
+## ⭐ If you like this project, give it a star ⭐
+
+### 🧠 Turning Long Documents into Quick Insights
+
+Built with ❤️ using Python & NLP
+
+</div>
