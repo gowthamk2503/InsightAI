@@ -138,7 +138,7 @@ Modern dashboard interface with sidebar navigation and quick controls.
 
 ## 📝 Text Summarization
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1273e1b0-23b5-4f0f-a039-bbc04cf81036" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/01c444f2-36fb-4700-bf6f-59d88ee7d5c2" />
 
 
 Generate summaries using multiple algorithms.
@@ -147,7 +147,6 @@ Generate summaries using multiple algorithms.
 
 ## 📋 Summary Output
 
-![Summary](./screenshots/summary.png)
 
 View generated summaries with statistics.
 
@@ -155,7 +154,8 @@ View generated summaries with statistics.
 
 ## 🏷️ Keyword Analysis
 
-![Keywords](./screenshots/keywords.png)
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/108a1e78-9645-4043-964a-289d4f210f3b" />
+
 
 Automatically extracted keywords.
 
@@ -163,7 +163,6 @@ Automatically extracted keywords.
 
 ## 📊 Frequency Visualization
 
-![Chart](./screenshots/chart.png)
 
 Keyword frequency analysis chart.
 
@@ -171,7 +170,6 @@ Keyword frequency analysis chart.
 
 ## 🔍 Detailed Analysis
 
-![Analysis](./screenshots/analysis.png)
 
 Highlighted sentences and text analytics.
 
@@ -179,7 +177,6 @@ Highlighted sentences and text analytics.
 
 ## 📚 Summary History
 
-![History](./screenshots/history.png)
 
 Manage and reload previous summaries.
 
@@ -187,13 +184,11 @@ Manage and reload previous summaries.
 
 ## 🌙 Dark Theme
 
-![Dark Theme](./screenshots/dark-theme.png)
 
 ---
 
 ## ☀️ Light Theme
 
-![Light Theme](./screenshots/light-theme.png)
 
 ---
 
