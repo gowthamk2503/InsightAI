@@ -1,0 +1,112 @@
+[
+  {
+    "timestamp": "2026-05-29T20:57:16.113092",
+    "original_text": "It includes structured, semi-structured, and unstructured data characterized by volume, velocity, variety, veracity, and value. It evolved from traditional databases to modern real-time analytics systems. It supports better decision-making and predictive analysis but faces challenges like storage, processing, security, and data quality. It consists of HDFS for storage, MapReduce for processing, and YARN for resource management. It provides scalability, fault tolerance, and cost efficiency but ha...",
+    "summary": "It includes structured, semi-structured, and unstructured data characterized by volume, velocity, variety, veracity, and value. It supports better decision-making and predictive analysis but faces challenges like storage, processing, security, and data quality. It consists of HDFS for storage, MapReduce for processing, and YARN for resource management. It provides scalability, fault tolerance, and cost efficiency but has limitations like high latency and complexity.",
+    "keywords": [
+      "data",
+      "like",
+      "storage",
+      "processing",
+      "provides",
+      "includes",
+      "structured",
+      "semistructured",
+      "unstructured",
+      "characterized"
+    ],
+    "algorithm": "lsa",
+    "length": "medium",
+    "compression_ratio": 25.301204819277107,
+    "original_word_count": 83,
+    "summary_word_count": 62
+  },
+  {
+    "timestamp": "2026-03-13T20:10:54.043516",
+    "original_text": "✅ Password for most games is👇\n\nhttps://t.me/pc_game_down\n\nOR\n\nhttps://t.me/gamemodspcworld\n\n✅ If this one fails,Try other passwords👇\n\npcgamestelegramchannel\n\npcgamesmods\n\n@gamemodspcworld\n\n\nCopy any of this and Paste in winrar one by one.",
+    "summary": "✅ Password for most games is👇 Copy any of this and Paste in winrar one by one.",
+    "keywords": [
+      "one",
+      "this",
+      "password",
+      "games",
+      "httpstmepc_game_down",
+      "httpstmegamemodspcworld",
+      "failstry",
+      "passwords",
+      "pcgamestelegramchannel",
+      "pcgamesmods"
+    ],
+    "algorithm": "lsa",
+    "length": "short",
+    "compression_ratio": 43.333333333333336,
+    "original_word_count": 30,
+    "summary_word_count": 17
+  },
+  {
+    "timestamp": "2026-03-13T20:10:22.616499",
+    "original_text": "✅ Password for most games is👇\n\nhttps://t.me/pc_game_down\n\nOR\n\nhttps://t.me/gamemodspcworld\n\n✅ If this one fails,Try other passwords👇\n\npcgamestelegramchannel\n\npcgamesmods\n\n@gamemodspcworld\n\n\nCopy any of this and Paste in winrar one by one.",
+    "summary": "✅ Password for most games is👇 https://t.me/gamemodspcworld pcgamestelegramchannel Copy any of this and Paste in winrar one by one.",
+    "keywords": [
+      "one",
+      "this",
+      "password",
+      "games",
+      "httpstmepc_game_down",
+      "httpstmegamemodspcworld",
+      "failstry",
+      "passwords",
+      "pcgamestelegramchannel",
+      "pcgamesmods"
+    ],
+    "algorithm": "lsa",
+    "length": "medium",
+    "compression_ratio": 36.666666666666664,
+    "original_word_count": 30,
+    "summary_word_count": 19
+  },
+  {
+    "timestamp": "2026-03-13T20:10:13.317892",
+    "original_text": "✅ Password for most games is👇\n\nhttps://t.me/pc_game_down\n\nOR\n\nhttps://t.me/gamemodspcworld\n\n✅ If this one fails,Try other passwords👇\n\npcgamestelegramchannel\n\npcgamesmods\n\n@gamemodspcworld\n\n\nCopy any of this and Paste in winrar one by one.",
+    "summary": "✅ Password for most games is👇 https://t.me/pc_game_down https://t.me/gamemodspcworld ✅ If this one fails,Try other passwords👇",
+    "keywords": [
+      "one",
+      "this",
+      "password",
+      "games",
+      "httpstmepc_game_down",
+      "httpstmegamemodspcworld",
+      "failstry",
+      "passwords",
+      "pcgamestelegramchannel",
+      "pcgamesmods"
+    ],
+    "algorithm": "lexrank",
+    "length": "medium",
+    "compression_ratio": 50.0,
+    "original_word_count": 30,
+    "summary_word_count": 15
+  },
+  {
+    "timestamp": "2026-03-13T20:09:59.291824",
+    "original_text": "✅ Password for most games is👇\n\nhttps://t.me/pc_game_down\n\nOR\n\nhttps://t.me/gamemodspcworld\n\n✅ If this one fails,Try other passwords👇\n\npcgamestelegramchannel\n\npcgamesmods\n\n@gamemodspcworld\n\n\nCopy any of this and Paste in winrar one by one.",
+    "summary": "✅ Password for most games is👇 https://t.me/pc_game_down https://t.me/gamemodspcworld Copy any of this and Paste in winrar one by one.",
+    "keywords": [
+      "one",
+      "this",
+      "password",
+      "games",
+      "httpstmepc_game_down",
+      "httpstmegamemodspcworld",
+      "failstry",
+      "passwords",
+      "pcgamestelegramchannel",
+      "pcgamesmods"
+    ],
+    "algorithm": "textrank",
+    "length": "medium",
+    "compression_ratio": 36.666666666666664,
+    "original_word_count": 30,
+    "summary_word_count": 19
+  }
+]
